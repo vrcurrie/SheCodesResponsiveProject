@@ -1,5 +1,56 @@
+header {
+  margin-top: -42px;
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black
+      no-repeat center center scroll;
+  }
+
+  header video {
+    display: none;
+  }
+}
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #35858b;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -12,6 +63,7 @@ h1,
 h2,
 h3 {
   margin: 0;
+  font-family: "Poiret One", cursive;
 }
 
 h1 {
@@ -23,13 +75,14 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 36px;
   opacity: 0.7;
 }
 
 p {
   font-size: 18px;
   line-height: 1.5;
+  font-family: "Poiret One", cursive;
 }
 
 .navigation-links {
@@ -53,6 +106,7 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  font-family: "Poiret One", cursive;
 }
 
 .secondary-link {
@@ -62,6 +116,7 @@ p {
   text-transform: capitalize;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  font-family: "Poiret One", cursive;
 }
 
 .homepage-link {
@@ -77,6 +132,7 @@ p {
 
 .about-paragraphs p {
   margin: 10px;
+  color: #072227;
 }
 
 .email-link {
@@ -85,8 +141,18 @@ p {
   color: var(--primary-color);
   font-size: 20px;
   text-decoration: none;
+  font-family: "Poiret One", cursive;
 }
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+.navbar-brand {
+  font-family: "The Nautigal", cursive;
+  color: #072227;
+}
+.nav-item {
+  font-family: "Poiret One", cursive;
+  color: #072227;
 }
