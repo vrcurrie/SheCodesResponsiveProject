@@ -59,6 +59,9 @@ header .overlay {
 body {
   margin-top: 100px;
 }
+.about-me-header {
+  margin-bottom: 40px;
+}
 
 h1,
 h2,
