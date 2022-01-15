@@ -174,3 +174,9 @@ p {
   margin-top: -45px;
   margin-right: 4px;
 }
+.fixed-bottom {
+  background-color: #f8f9fa;
+}
+.page-bumper {
+  margin-bottom: 200px;
+}
