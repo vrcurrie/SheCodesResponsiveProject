@@ -180,3 +180,11 @@ p {
 .page-bumper {
   margin-bottom: 200px;
 }
+.navbar-brands {
+  font-family: "The Nautigal", cursive;
+  color: #072227;
+  font-size: 36px;
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+}
