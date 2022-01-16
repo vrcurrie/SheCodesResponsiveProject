@@ -192,3 +192,10 @@ p {
   width: 500px;
   height: 500px;
 }
+.gitty {
+  font-family: "Poiret One", cursive;
+  color: #072227;
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+}
