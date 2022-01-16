@@ -199,3 +199,6 @@ p {
   justify-content: center;
   display: flex;
 }
+.contact-form-button {
+  margin-top: 10px;
+}
